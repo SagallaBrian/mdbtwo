@@ -1,0 +1,182 @@
+[
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Moore&#039;s law originally stated that the number of transistors on a microprocessor chip would double every...",
+        "correct_answer": "Year",
+        "incorrect_answers": [
+            "Four Years",
+            "Two Years",
+            "Eight Years"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What did the name of the Tor Anonymity Network orignially stand for?",
+        "correct_answer": "The Onion Router",
+        "incorrect_answers": [
+            "The Only Router",
+            "The Orange Router",
+            "The Ominous Router"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "What is the domain name for the country Tuvalu?",
+        "correct_answer": ".tv",
+        "incorrect_answers": [
+            ".tu",
+            ".tt",
+            ".tl"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What does the acronym CDN stand for in terms of networking?",
+        "correct_answer": "Content Delivery Network",
+        "incorrect_answers": [
+            "Content Distribution Network",
+            "Computational Data Network",
+            "Compressed Data Network"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "How many cores does the Intel i7-6950X have?",
+        "correct_answer": "10",
+        "incorrect_answers": [
+            "12",
+            "8",
+            "4"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Which coding language was the #1 programming language in terms of usage on GitHub in 2015?",
+        "correct_answer": "JavaScript",
+        "incorrect_answers": [
+            "C#",
+            "Python",
+            "PHP"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is known as &quot;the brain&quot; of the Computer?",
+        "correct_answer": "Central Processing Unit",
+        "incorrect_answers": [
+            "Motherboard",
+            "Graphics Processing Unit",
+            "Keyboard"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of the following is the oldest of these computers by release date?",
+        "correct_answer": "TRS-80",
+        "incorrect_answers": [
+            "Commodore 64",
+            "ZX Spectrum",
+            "Apple 3"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "What is the main CPU is the Sega Mega Drive \/ Sega Genesis?",
+        "correct_answer": "Motorola 68000",
+        "incorrect_answers": [
+            "Zilog Z80",
+            "Yamaha YM2612",
+            "Intel 8088"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What does the International System of Quantities refer 1024 bytes as?",
+        "correct_answer": "Kibibyte",
+        "incorrect_answers": [
+            "Kylobyte",
+            "Kilobyte",
+            "Kelobyte"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "medium",
+        "question": "Approximately how many Apple I personal computers were created?",
+        "correct_answer": "200",
+        "incorrect_answers": [
+            "100",
+            "500",
+            "1000"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "easy",
+        "question": "In computing, what does LAN stand for?",
+        "correct_answer": "Local Area Network",
+        "incorrect_answers": [
+            "Long Antenna Node",
+            "Light Access Node",
+            "Land Address Navigation"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "What major programming language does Unreal Engine 4 use?",
+        "correct_answer": "C++",
+        "incorrect_answers": [
+            "Assembly",
+            "C#",
+            "ECMAScript"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which of these Cherry MX mechanical keyboard switches is both tactile and clicky?",
+        "correct_answer": "Cherry MX Blue",
+        "incorrect_answers": [
+            "Cherry MX Black",
+            "Cherry MX Red",
+            "Cherry MX Brown"
+        ]
+    },
+    {
+        "category": "Science: Computers",
+        "type": "multiple",
+        "difficulty": "hard",
+        "question": "Which kind of algorithm is Ron Rivest not famous for creating?",
+        "correct_answer": "Secret sharing scheme",
+        "incorrect_answers": [
+            "Hashing algorithm",
+            "Asymmetric encryption",
+            "Stream cipher"
+        ]
+    }
+]

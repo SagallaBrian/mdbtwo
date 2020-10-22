@@ -1,0 +1,299 @@
+[
+ 
+    {
+        "chatind": "40005",
+        "fromwhoind": "255366382",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:03:01",
+        "messageitself": "Noel to Brian"
+    },
+    {
+        "chatind": "40006",
+        "fromwhoind": "255366382",
+        "towhoind": "340649282",
+        "indifread": "0",
+        "messtimestamp": "25\/03\/2020 02:03:10",
+        "messageitself": "Noel to jack"
+    },
+    {
+        "chatind": "40007",
+        "fromwhoind": "255366382",
+        "towhoind": "431515784",
+        "indifread": "0",
+        "messtimestamp": "25\/03\/2020 02:03:21",
+        "messageitself": "Noel to sharon"
+    },
+    {
+        "chatind": "40008",
+        "fromwhoind": "255366382",
+        "towhoind": "692962985",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:03:29",
+        "messageitself": "Noel to kevin"
+    },
+    {
+        "chatind": "40009",
+        "fromwhoind": "692962985",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:04:29",
+        "messageitself": "Kevin to Brian"
+    },
+    {
+        "chatind": "40010",
+        "fromwhoind": "692962985",
+        "towhoind": "255366382",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:04:39",
+        "messageitself": "Kevin to Noel"
+    },
+    {
+        "chatind": "40011",
+        "fromwhoind": "692962985",
+        "towhoind": "431515784",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:04:48",
+        "messageitself": "Kevin to Sharon"
+    },
+    {
+        "chatind": "40012",
+        "fromwhoind": "692962985",
+        "towhoind": "340649282",
+        "indifread": "0",
+        "messtimestamp": "25\/03\/2020 02:04:56",
+        "messageitself": "Kevin to jack"
+    },
+    {
+        "chatind": "40013",
+        "fromwhoind": "340649282",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:06:12",
+        "messageitself": "Jack to Brian"
+    },
+    {
+        "chatind": "40014",
+        "fromwhoind": "340649282",
+        "towhoind": "431515784",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:06:22",
+        "messageitself": "Jack to Sharon"
+    },
+    {
+        "chatind": "40015",
+        "fromwhoind": "340649282",
+        "towhoind": "692962985",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:06:31",
+        "messageitself": "Jack to kevin"
+    },
+    {
+        "chatind": "40016",
+        "fromwhoind": "340649282",
+        "towhoind": "255366382",
+        "indifread": "0",
+        "messtimestamp": "25\/03\/2020 02:06:41",
+        "messageitself": "Jack to noel"
+    },
+    {
+        "chatind": "40017",
+        "fromwhoind": "431515784",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:07:22",
+        "messageitself": "Sharon to Brian"
+    },
+    {
+        "chatind": "40018",
+        "fromwhoind": "431515784",
+        "towhoind": "692962985",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:07:30",
+        "messageitself": "Sharon to kevin"
+    },
+    {
+        "chatind": "40019",
+        "fromwhoind": "431515784",
+        "towhoind": "340649282",
+        "indifread": "0",
+        "messtimestamp": "25\/03\/2020 02:07:42",
+        "messageitself": "Sharon to jack"
+    },
+    {
+        "chatind": "40020",
+        "fromwhoind": "431515784",
+        "towhoind": "255366382",
+        "indifread": "0",
+        "messtimestamp": "25\/03\/2020 02:07:52",
+        "messageitself": "Sharon to noel"
+    },
+    {
+        "chatind": "40021",
+        "fromwhoind": "287665301",
+        "towhoind": "431515784",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:10:00",
+        "messageitself": "Brian to Sharon 2"
+    },
+    {
+        "chatind": "40022",
+        "fromwhoind": "287665301",
+        "towhoind": "255366382",
+        "indifread": "0",
+        "messtimestamp": "25\/03\/2020 02:11:27",
+        "messageitself": "Brian to Noel 2"
+    },
+    {
+        "chatind": "40023",
+        "fromwhoind": "287665301",
+        "towhoind": "255366382",
+        "indifread": "0",
+        "messtimestamp": "25\/03\/2020 02:11:38",
+        "messageitself": "Brian to noel 3"
+    },
+    {
+        "chatind": "40024",
+        "fromwhoind": "255366382",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:16:05",
+        "messageitself": "Noel to brian 2"
+    },
+    {
+        "chatind": "40025",
+        "fromwhoind": "431515784",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:31:40",
+        "messageitself": "sharon to Brian 2"
+    },
+    {
+        "chatind": "40026",
+        "fromwhoind": "431515784",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "25\/03\/2020 02:31:52",
+        "messageitself": "Sharon to Brian 3"
+    },
+    {
+        "chatind": "40027",
+        "fromwhoind": "287665301",
+        "towhoind": "692962985",
+        "indifread": "1",
+        "messtimestamp": "26\/03\/2020 03:42:33",
+        "messageitself": "hey there"
+    },
+    {
+        "chatind": "40028",
+        "fromwhoind": "287665301",
+        "towhoind": "431515784",
+        "indifread": "1",
+        "messtimestamp": "26\/03\/2020 03:47:44",
+        "messageitself": "hey sharon"
+    },
+    {
+        "chatind": "40029",
+        "fromwhoind": "431515784",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "26\/03\/2020 03:48:32",
+        "messageitself": "im good"
+    },
+    {
+        "chatind": "40030",
+        "fromwhoind": "431515784",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "26\/03\/2020 03:55:36",
+        "messageitself": "how are you"
+    },
+    {
+        "chatind": "40031",
+        "fromwhoind": "287665301",
+        "towhoind": "431515784",
+        "indifread": "0",
+        "messtimestamp": "26\/03\/2020 03:56:22",
+        "messageitself": "im good"
+    },
+    {
+        "chatind": "40032",
+        "fromwhoind": "431515784",
+        "towhoind": "692962985",
+        "indifread": "1",
+        "messtimestamp": "26\/03\/2020 04:02:15",
+        "messageitself": "hey what is up ?"
+    },
+    {
+        "chatind": "40033",
+        "fromwhoind": "692962985",
+        "towhoind": "287665301",
+        "indifread": "1",
+        "messtimestamp": "26\/03\/2020 04:02:49",
+        "messageitself": "im gud bro"
+    },
+    {
+        "chatind": "40034",
+        "fromwhoind": "692962985",
+        "towhoind": "255366382",
+        "indifread": "1",
+        "messtimestamp": "26\/03\/2020 04:03:00",
+        "messageitself": "how are you ?"
+    },
+    {
+        "chatind": "40035",
+        "fromwhoind": "692962985",
+        "towhoind": "340649282",
+        "indifread": "0",
+        "messtimestamp": "26\/03\/2020 04:03:10",
+        "messageitself": "soo"
+    },
+    {
+        "chatind": "40036",
+        "fromwhoind": "692962985",
+        "towhoind": "340649282",
+        "indifread": "0",
+        "messtimestamp": "26\/03\/2020 04:03:16",
+        "messageitself": "kuliendaje"
+    },
+    {
+        "chatind": "40037",
+        "fromwhoind": "431515784",
+        "towhoind": "692962985",
+        "indifread": "1",
+        "messtimestamp": "26\/03\/2020 04:03:46",
+        "messageitself": "how"
+    },
+    {
+        "chatind": "40038",
+        "fromwhoind": "431515784",
+        "towhoind": "692962985",
+        "indifread": "0",
+        "messtimestamp": "26\/03\/2020 04:09:27",
+        "messageitself": "oliya"
+    },
+    {
+        "chatind": "40039",
+        "fromwhoind": "255366382",
+        "towhoind": "692962985",
+        "indifread": "0",
+        "messtimestamp": "26\/03\/2020 04:10:51",
+        "messageitself": "im good"
+    },
+    {
+        "chatind": "40040",
+        "fromwhoind": "255366382",
+        "towhoind": "692962985",
+        "indifread": "0",
+        "messtimestamp": "26\/03\/2020 04:11:52",
+        "messageitself": "soo how is work"
+    },
+    {
+        "chatind": "40041",
+        "fromwhoind": "287665301",
+        "towhoind": "795015588",
+        "indifread": "0",
+        "messtimestamp": "04\/06\/2020 08:47:11",
+        "messageitself": "hey"
+    }
+]

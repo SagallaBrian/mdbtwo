@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Introduction To Schema</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Styling  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="shortcut icon" type="image/png" href="../img/komptr.png" />
+    <style>
+        a,
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="py-5">
+        <div class="container-lg">
+
+            <div class="">
+                <a href="../../" class="btn btn-danger">Go To Main Menu</a>
+            </div>
+
+            <div class="py-4">
+                <div class="p">
+                    <h4 class="font-weight-normal text-success">
+                        Introduction To Schema
+                    </h4>
+                    <h5 class="font-weight-normal text-secondary">A database schema is the skeleton structure that
+                        represents the logical view of the entire database. </h5>
+                </div>
+                <span class="text-primary">// Import the mongoose module </span><br />
+                const mongoose = require(&#039;mongoose&#039;); <br /> <br />
+
+                <span class="text-primary">// Define a schema</span> <br />
+                const ngooseSch = mongoose.Schema; <br /><br />
+
+                <span class="text-primary">// Schema constructor to create a new schema instance</span> <br />
+                const Schemaone = new ngooseSch({ <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;usaName: <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;{ <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: String,<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unique: false<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;}, <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;userEmail: <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;{ <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: String, <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; unique: true <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;}, <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;usaDate: { <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; type: Date, <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; default: Date.now() <br />
+                &nbsp;&nbsp;&nbsp;&nbsp;} <br />
+                }); <br />
+                <br />
+                Schemaone.methods.myfunction = function () {<br />
+                &nbsp;&nbsp;&nbsp;&nbsp;console.log(this); <br />
+                }<br /><br />
+                <span class="text-primary">// Compile model from schema</span> <br/>
+                const Schemaoneconst = mongoose.model(&#039;collectionName&#039;, Schemaone);<br />
+                <br />
+                const newDataSch = new Schemaoneconst({ usaName: &#039;Brian Sagalla&#039;, userEmail:
+                &#039;brayozwebdesigner@gmail.com&#039; });<br />
+                console.log(newDataSch);<br />
+                <br />
+                const newDataSch2 = new Schemaoneconst({ usaName: &#039;James Wabwire&#039;, userEmail:
+                &#039;jameswabwire@gmail.com&#039; });<br />
+                newDataSch2.myfunction()<br />
+
+
+
+            </div>
+        </div>
+    </div>
+    <script src="https://use.fontawesome.com/a0e6427a8e.js"></script>
+
+
+</body>
+
+</html>

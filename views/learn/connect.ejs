@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Connecting To Database</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap Styling  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="shortcut icon" type="image/png" href="../img/komptr.png" />
+    <style>
+        a,
+        a:hover {
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+
+
+<body>
+    <div class="py-5">
+        <div class="container-lg">
+            
+            <div class="">
+                <a href="../../" class="btn btn-danger">Go To Main Menu</a>
+            </div>
+            
+            <div class="py-4">
+                <div class="p">
+                    <h4 class="font-weight-normal text-success">
+                        Connecting To Database
+                    </h4>
+                </div>
+                <span class="text-primary">// Import the mongoose module </span><br />
+                const mongoose = require(&#039;mongoose&#039;); <br /> <br />
+
+                <span class="text-primary">// Set up default mongoose connection </span> <br>
+                const mongourl = &#039;mongodb://127.0.0.1/youdbname&#039;; <br />
+                mongoose.connect(mongourl,
+                {<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    useNewUrlParser: true, <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    useUnifiedTopology: true,<br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    useFindAndModify: false, <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    useCreateIndex: true <br/>
+                &nbsp;&nbsp;}<br/>
+                );<br/> <br/>
+
+                <span class="text-primary">// Get the default connection</span> <br/>
+                const db = mongoose.connection; <br/> <br/>
+
+
+                <span class="text-primary">// Bind connection to error event (to get notification of connection
+                    errors)</span> <br />
+                db.on(&#039;error&#039;, console.error.bind(console, &#039;connection error:&#039;)); <br/><br/>
+
+
+                <span class="text-primary">// When successful this would be console logged</span> <br/>
+                db.once(&#039;open&#039;, function () { <br/>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  console.log(&quot;Mongodb Connection Established Successfully&quot;); <br/>
+                }); <br/>
+            </div>
+        </div>
+    </div>
+    <script src="https://use.fontawesome.com/a0e6427a8e.js"></script>
+
+
+</body>
+
+</html>
